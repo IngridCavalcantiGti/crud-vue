@@ -4,6 +4,14 @@ import Home from '../views/Home.vue'
 import VueCompositionAPI from '@vue/composition-api'
 import  'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'ant-design-vue/dist/antd.css';
+import { Button } from 'ant-design-vue';
+import { Modal } from 'ant-design-vue';
+import { Input } from 'ant-design-vue';
+
+Vue.use(Button);
+Vue.use(Modal);
+Vue.use(Input);
 
 Vue.use(VueCompositionAPI)
 Vue.use(VueRouter)
