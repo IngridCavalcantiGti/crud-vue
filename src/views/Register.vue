@@ -8,7 +8,7 @@
         <Sider />
       </a-layout-sider>
       <a-layout-content>
-        <!-- <div>
+        <div>
           <AddInformation class="d-flex justify-content-end mb-2" />
           <div class="mx-auto w-50">
             <a-input-search
@@ -26,8 +26,7 @@
               </template>
             </a-table>
           </div>
-        </div> -->
-        <div class="d-flex justify-content-center">alguma coisa</div>
+        </div>
       </a-layout-content>
     </a-layout>
   </a-layout>

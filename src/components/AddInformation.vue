@@ -1,9 +1,14 @@
 <template>
   <div class="container-fluid">
-    <a-button type="primary" @click="showModal">Open Modal</a-button>
+    <div>
+      <a-button type="primary" @click="showModal" size="large" class="mt-4">
+        Adicionar
+      </a-button>
+    </div>
+
     <a-modal
       v-model="visible"
-      title="Adicionar novo cliente"
+      title="Novo cliente"
       @ok="handleOk"
       cancelText="Cancelar"
       okText="Confirmar"
@@ -45,3 +50,27 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+/* .ant-btn {
+  background-color: #04ae4c;
+  color: black;
+  border: transparent;
+   background-image: linear-gradient(
+    0deg,
+    rgba(83.93749594688416, 186.899294257164, 255, 1) 0%,
+    rgba(141.31250202655792, 255, 200.4300034046173, 1) 100%
+  );
+} */
+
+/* :hover .ant-btn {
+  background-color: #04ae4c;
+  color: black;
+  border: transparent;
+  background-image: linear-gradient(
+    0deg,
+    rgba(83.93749594688416, 186.899294257164, 255, 1) 0%,
+    rgba(141.31250202655792, 255, 200.4300034046173, 1) 100%
+  );
+} */
+</style>
